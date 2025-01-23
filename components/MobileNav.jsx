@@ -1,7 +1,19 @@
-import React from "react";
+"use client";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
+import {} from "react-icons/ci";
+import { CiMenuFries } from "react-icons/ci";
+
+const links = [
+  {
+    name: "home",
+    path: "/",
+  },
+];
 
 const MobileNav = () => {
-  return <div>MobileNav</div>;
+  return <nav>MobileNav</nav>;
 };
 
 export default MobileNav;
