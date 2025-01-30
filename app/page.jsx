@@ -14,6 +14,10 @@ const Home = () => {
               <br />
               <span>Tejal</span>
             </h1>
+            <p className="max-w-[500px] mb-9 text-white/80">
+              {" "}
+              I am Software Engineer and QA. I am profient in various languages
+            </p>
           </div>
 
           {/* photos */}
